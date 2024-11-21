@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Told You So (TOLDYOU)</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .icons {
+            margin-top: 20px;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+
+        .icon:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="toldyouso.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+        <h1>إن شاء الله</h1>
+        <p>I Told You So (TOLDYOU)<br>Monetary revolution. Institutional FOMO. Here it is.</p>
+        <div class="icons">
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter_X.svg" alt="Twitter" class="icon">
+            </a>
+            <a href="https://t.me" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" class="icon">
+            </a>
+            <a href="https://dexscreener.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Dexscreener_logo.png" alt="Dexscreener" class="icon">
+            </a>
+            <a href="https://pump.fun/coin/9UNc75oWtitDNMc6czpfVPG6m9xEdHd7yyDR5Z6mpump" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Link-icon.svg" alt="Pumpfun" class="icon">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
